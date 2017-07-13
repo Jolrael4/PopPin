@@ -1,13 +1,7 @@
 # PopPin
 
-# Large Header
+Code started as Dukehammer's glowingStatic. I added the glitter function and limited the color during the disco function.
 
-## Smaller Header
-
-* list item 1
-  * sub item 1
-  * sub item 2
-* list item 2
-
-1) Ordered list
-1) nuber doesn't matter
+The basic program pops a random number of pins in the same base color. 
+*Disco will start with and pop random colors. 
+*Glitter will be similar to disco, but will only pop the random color once the pin has faded to black.
