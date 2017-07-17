@@ -1,0 +1,28 @@
+h1{
+	color:gray;
+	box-shadow: 10px;
+}
+
+body{
+	background-color : #000;
+	white-space : nowrap;
+}
+
+ul{
+	list-style-type:none;
+ 	display: inline;
+ 	float: right;
+	border: 1px;
+	border-color: white;
+}
+
+li {
+	background-color: gray;
+	padding: 2px;
+	box-shadow: 10px;
+}
+
+label{
+	border: 1px;
+	border-color: #5b5b5b;
+}

@@ -1,31 +1,23 @@
 <html>
 	<head>
 		<title>Pop Pin</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
+	<h1>Pop Pin</h1>
 	<body>
-		<html>
-			<body style="background-color:#000000">
-				<canvas id="canvas"></canvas>
-			</body>
-		</html>
+		<div>
+			<ul>
+				<li>
+					<label><input type="radio" name="type" onclick="pickBasic()" checked> Basic</label>
+					<label><input type="radio" name="type" onclick="pickDisco()"> Disco</label>
+					<label><input type="radio" name="type" onclick="pickGlitter()"> Glitter</label>
+				</li>
+				<li id="probSlide"><label>Prob<input type="range" min=".1" max=".9" value=".2" step=".1" onchange="changeProb(this.value)" /></label></li>
+				<li id="freqSlide"><label>Freq<input type="range" min="2" max="42" value="22" step="5" onchange="changeFreq(this.value)" /></label></li>
+				<li id="colorSlide"><label>Color<input type="range" min="1" max="9" value="6" step="1" onchange="changeColor(this.value)" /></label></li>
+			</ul>
+			<canvas id="canvas" ></canvas>
+		</div>
+	</body>
 		<script type = "text/javascript" src="./popPin.js"></script>
-	</body>
 </html>
-
-
-
-<!--
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Glowing Static</title>
-	</head>
-	<body>
-		<html>
-			<body style="background-color:#000000">
-				<canvas id="canvas"></canvas>
-			</body>
-		</html>
-		<script src="glowingstatic.js"></script>
-	</body>
-</html>-->
