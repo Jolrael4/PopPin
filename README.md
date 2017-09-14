@@ -6,7 +6,10 @@ The basic program pops a random number of pins in the same base color.
 
 ## Run program https://jolrael4.github.io/PopPin/
 
-Code started as Dukehammer's glowingStatic. I added the following:
+Code started as [Dukehammer]'s [Glowing Static]. I added the following:
 * The glitter function 
 * Limited the random color choice during the disco function
 * The HTML and CSS files
+
+[Dukehammer]: https://github.com/dukehammer
+[Glowing Static]: https://dukehammer.github.io/projects/glowingstatic/
